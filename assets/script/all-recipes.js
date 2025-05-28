@@ -72,9 +72,3 @@ function displayRecipes(recipes, parentSectionId) {
     .join("");
 }
 
-
-// at the end fill the readme:
-
-// this is the concept, this is a technologies, showcase the code, what methods i used and why,
-
-// practice more with JS, take each syntax separately if you have a problem
