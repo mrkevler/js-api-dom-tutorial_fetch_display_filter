@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <section id="all-recipes">
+          <h1>All Recipes</h1>
+          <div class="recipes-container"></div>
+        </section>
+
+        <section id="high-rated-easy">
+          <h2>High rated easy recipes</h2>
+          <div class="recipes-container"></div>
+        </section>
+
+        <section id="no-olive-oil">
+          <h2>No olive & no oil recipes</h2>
+          <div class="recipes-container"></div>
+        </section>
+      </main>
+
+      <footer>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </footer>
+    </div>
+  </body>
+  <script src="./assets/script/all-recipes.js"></script>
+  <script src="./assets/script/single-recipe.js"></script>
+</html>
